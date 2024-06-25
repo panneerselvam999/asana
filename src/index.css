@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .black-btn {
+        @apply rounded-btn border border-black bg-black px-5 py-3 font-semibold text-white hover:opacity-70 duration-300;
+    }
+
+    .white-btn {
+        @apply ml-4 rounded-btn border border-black px-5 py-3 font-semibold duration-300 hover:bg-black hover:text-white hover:opacity-70;
+    }
+}
