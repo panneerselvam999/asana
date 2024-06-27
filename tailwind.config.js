@@ -9,6 +9,7 @@ export default {
         sml: "500px",
         sm560: "560px",
         sm640: "640px",
+        mdl: "850px",
         xl: "1120px",
         xlAbove: "1150px",
       },

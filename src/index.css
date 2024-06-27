@@ -4,7 +4,7 @@
 
 @layer components {
     .black-btn {
-        @apply rounded-btn border border-black bg-black px-5 py-3 font-semibold text-white hover:opacity-70 duration-300;
+        @apply rounded-btn border border-black bg-black px-5 py-3 font-semibold text-white duration-300 hover:opacity-70;
     }
 
     .white-btn {
@@ -12,10 +12,9 @@
     }
 
     .brand-style {
-        @apply inline-block m-5 
+        @apply sml:w-fit m-5 flex w-full items-center justify-center;
     }
 }
-
 
 * {
     margin: 0;
@@ -24,8 +23,9 @@
 }
 
 body {
+    /* width: 100vw; */
     width: 100%;
-    overflow-x: hidden;
+
 }
 
 #nav-bar {

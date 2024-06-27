@@ -2,7 +2,7 @@ import React from "react";
 
 const Brand = () => {
     return (
-        <section className="pb-10">
+        <section className="w-full p-6 pb-10 xl:px-24 border border-black">
             <p className="text-center text-xl font-normal md:text-3xl">
                 85% of Fortune 100 companies choose Asana¹
             </p>
