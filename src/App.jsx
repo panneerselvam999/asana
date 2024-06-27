@@ -1,11 +1,13 @@
-import Hero from "./components/Hero";
-import Navbar from "./components/Navbar";
+import Brand from "./components/brand/Brand";
+import Hero from "./components/hero/Hero";
+import Navbar from "./components/nav/Navbar";
 
 export default function App() {
   return (
-    <div>
+    <div className="w-full xl:px-24">
       <Navbar />
       <Hero />
+      <Brand />
     </div>
   )
 }

@@ -8,6 +8,26 @@
     }
 
     .white-btn {
-        @apply ml-4 rounded-btn border border-black px-5 py-3 font-semibold duration-300 hover:bg-black hover:text-white hover:opacity-70;
+        @apply rounded-btn border border-black px-5 py-3 font-semibold duration-300 hover:bg-black hover:text-white hover:opacity-70;
     }
+
+    .brand-style {
+        @apply inline-block m-5 
+    }
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+#nav-bar {
+    color: black;
 }
