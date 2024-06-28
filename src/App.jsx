@@ -6,7 +6,7 @@ import Navbar from "./components/nav/Navbar";
 export default function App() {
   return (
     <>
-      <div className="w-full xl:px-24">
+      {/* <div className="w-full xl:px-24"> */}
         <Navbar />
         <Hero />
         <Brand />
@@ -22,7 +22,7 @@ export default function App() {
         <br />
         <br />
         <br />
-      </div>
+      {/* </div> */}
     </>
   );
 }

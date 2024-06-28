@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => {
     return (
-        // <div className="w-full xl:px-24 border border-pink-700">
+        <div className="w-full xl:px-20">
             <nav className="mx-auto flex w-full items-center justify-between border border-black p-2  bg-gray-500" id="nav-bar">
                 <div className="flex items-center space-x-4">
                     <div className="text-xl font-bold text-white">
@@ -84,7 +84,7 @@ const Navbar = () => {
                     </div>
                 </div>
             </nav>
-        // </div>
+        </div>
     );
 };
 

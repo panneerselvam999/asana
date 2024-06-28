@@ -1,0 +1,64 @@
+{
+    "featureData": [
+        {
+            "id": 1,
+            "name": "Marketing",
+            "title": "Meet campaign goals",
+            "points": [
+                "Manage events and editorial calendars",
+                "Enhance creative production",
+                "Manage events and editorial calendars"
+            ],
+            "btn": "Explore marketing",
+            "img": "img/marketing.webp"
+        },
+        {
+            "id": 2,
+            "name": "Operations",
+            "title": "Drive operational efficiency",
+            "points": [
+                "Track work and see progress in real time",
+                "Standardize and automate processes",
+                "Unblock teams to hit revenue goals"
+            ],
+            "btn": "Explore operations",
+            "img": "img/operations.webp"
+        },
+        {
+            "id": 3,
+            "name": "IT",
+            "title": "Prioritize and streamline IT requests",
+            "points": [
+                "Allocate resources more effectively",
+                "Automate and scale your workflows",
+                "Onboard and offboard employees"
+            ],
+            "btn": "Explore IT",
+            "img": "img/it.webp"
+        },
+        {
+            "id": 4,
+            "name": "Product",
+            "title": "Launch better products faster",
+            "points": [
+                "Keep product development on track",
+                "Centralize launch information",
+                "Tie your product roadmap to your strategy"
+            ],
+            "btn": "Explore product",
+            "img": "img/product.webp"
+        },
+        {
+            "id": 5,
+            "name": "Company-wide",
+            "title": "Operationalize goals",
+            "points": [
+                "Connect work to company goals",
+                "Automate workflows across departments",
+                "Report on progress and address bottlenecks"
+            ],
+            "btn": "See how it works",
+            "img": "img/company.webp"
+        }
+    ]
+}
