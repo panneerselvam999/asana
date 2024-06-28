@@ -14,12 +14,12 @@ const FeaturesMenu = ({ activeMenu }) => {
     }
 
     return (
-        <div className="lgs:flex w-full gap-10 p-4">
+        <div className="lgs:flex w-full gap-10 md:p-4">
             <div className="lgs:w-1/2 w-full">
                 <img src={featureData.img} alt={featureData.name} className="" />
             </div>
             <div className="lgs:w-1/2 lgs:pt-0 flex w-full flex-col justify-start gap-6 pt-10">
-                <h2 className="text-3xl font-semibold">{featureData.title}</h2>
+                <h2 className="sub-heading">{featureData.title}</h2>
                 <ul className="list-disc pl-6 text-xl">
                     {featureData.points.map((point, index) => (
                         <li key={index}>{point}</li>

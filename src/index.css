@@ -14,6 +14,14 @@
     .brand-style {
         @apply sml:w-fit m-5 flex w-full items-center justify-center;
     }
+
+    .main-heading {
+        @apply mdl:w-[820px] pb-10 pt-20 text-3xl font-semibold tracking-tighter md:text-6xl;
+    }
+
+    .sub-heading {
+        @apply text-xl font-semibold md:text-3xl;
+    }
 }
 
 * {

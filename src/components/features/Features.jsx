@@ -36,26 +36,25 @@ const Features = () => {
     };
 
     return (
-        <section className="w-full bg-[#F3F3F3] p-12 xl:px-20">
+        <section className="w-full bg-[#F3F3F3]  px-12 xl:px-20">
             <div>
                 <div>
-                    <h1 className="mdl:w-[820px] pb-10 pt-20 text-6xl font-semibold tracking-tighter">
+                    <h1 className="main-heading">
                         See how Asana connects work across different departments
                     </h1>
                     <div>
                         {menuItems.map((item, index) => (
                             <div
                                 key={index}
-                                className={` mr-5 hidden lgs:inline-block cursor-pointer rounded-full border px-6 py-5 text-xl font-semibold text-gray-800 ${activeMenu === item ? "border-none bg-[#F7DEE3] text-[#690031]" : ""}`}
+                                className={`lgs:inline-block mr-5 hidden cursor-pointer rounded-full border px-6 py-5 text-xl font-semibold text-gray-800 ${activeMenu === item ? "border-none bg-[#F7DEE3] text-[#690031]" : ""}`}
                                 onClick={() => setActiveMenu(item)}
                             >
-                                    {item}
+                                {item}
                             </div>
                         ))}
 
-                        
                         <select
-                            className="lgs:hidden custom-select w-3/4 border py-3 pr-4 ps-4"
+                            className="lgs:hidden custom-select w-full md:w-3/4 border py-3 pr-4 ps-4"
                             name="features-dropdown"
                             value={activeMenu}
                             id="features-dropdown"
