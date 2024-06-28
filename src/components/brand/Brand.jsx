@@ -2,13 +2,13 @@ import React from "react";
 
 const Brand = () => {
     return (
-        <section className="w-full p-12 xl:px-20">
+        <section className="w-full px-6 md:px-10 xl:px-20">
 
-            <div className="w-full p-6 pb-10 xl:px-24 ">
+            <div className="w-full pb-6 md:pb-10  ">
                 <p className="text-center text-xl font-normal md:text-3xl">
                     85% of Fortune 100 companies choose Asana¹
                 </p>
-                <div className="mt-5 flex flex-wrap items-center justify-center">
+                <div className="mt-5 flex flex-wrap items-baseline justify-center">
                     <div className="brand-style">
                         <img src="logos/Amazon.svg" alt="Amazon.svg" className="h-10 w-36" />
                     </div>

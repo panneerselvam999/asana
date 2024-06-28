@@ -2,38 +2,31 @@ import React from "react";
 
 const Navbar = () => {
     return (
-        <div className="w-full xl:px-20">
-            <nav className="mx-auto flex w-full items-center justify-between border border-black p-2  bg-gray-500" id="nav-bar">
+        <section className="sticky top-0 w-full bg-white text-black drop-shadow-md xl:px-20">
+            <nav
+                className="mx-auto flex h-14 w-full items-center justify-between px-4 xl:px-0"
+                id="nav-bar "
+            >
                 <div className="flex items-center space-x-4">
-                    <div className="text-xl font-bold text-white">
+                    <div className="text-xl font-bold">
                         <img src="icons/asana-logo-name.svg" alt="asana-logo-name.svg" />
                     </div>
                     <div className="hidden xl:block">
                         <ul className="flex space-x-4">
                             <li>
-                                <a href="#" className="text-white">
-                                    Features
-                                </a>
+                                <a href="#">Features</a>
                             </li>
                             <li>
-                                <a href="#" className="text-white">
-                                    Solutions
-                                </a>
+                                <a href="#">Solutions</a>
                             </li>
                             <li>
-                                <a href="#" className="text-white">
-                                    Resources
-                                </a>
+                                <a href="#">Resources</a>
                             </li>
                             <li>
-                                <a href="#" className="text-white">
-                                    Enterprise
-                                </a>
+                                <a href="#">Enterprise</a>
                             </li>
                             <li>
-                                <a href="#" className="text-white">
-                                    Pricing
-                                </a>
+                                <a href="#">Pricing</a>
                             </li>
                         </ul>
                     </div>
@@ -44,30 +37,30 @@ const Navbar = () => {
                         <img
                             src="icons/internet.svg "
                             alt="internet"
-                            className="sm560:block hidden h-5 w-5"
+                            className="hidden h-5 w-5 sm560:block"
                         />
                     </div>
                     <div>
-                        <a href="#" className="text-white">
+                        <a href="#">
                             <img
                                 src="icons/user.svg"
                                 alt="user svg"
-                                className="sm560:block sm640:hidden hidden h-7 w-7 stroke-[6px] xl:block xlAbove:hidden"
+                                className="hidden h-7 w-7 stroke-[6px] sm560:block sm640:hidden xl:block xlAbove:hidden"
                             />
-                            <span className="sm640:block hidden xl:hidden xlAbove:block">
+                            <span className="hidden sm640:block xl:hidden xlAbove:block">
                                 Login
                             </span>
                         </a>
                     </div>
-                    <span className="sm560:block hidden opacity-45">|</span>
+                    <span className="hidden opacity-45 sm560:block">|</span>
                     <div>
-                        <a href="#" className="text-white">
+                        <a href="#">
                             <img
                                 src="icons/mail.svg"
                                 alt="Internet svg"
-                                className="sm640:hidden sm560:block hidden h-7 w-7 xl:block xlAbove:hidden"
+                                className="hidden h-7 w-7 sm560:block sm640:hidden xl:block xlAbove:hidden"
                             />
-                            <span className="sm640:block hidden xl:hidden xlAbove:block">
+                            <span className="hidden sm640:block xl:hidden xlAbove:block">
                                 Contact sales
                             </span>
                         </a>
@@ -84,7 +77,7 @@ const Navbar = () => {
                     </div>
                 </div>
             </nav>
-        </div>
+        </section>
     );
 };
 

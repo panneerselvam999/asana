@@ -36,17 +36,17 @@ const Features = () => {
     };
 
     return (
-        <section className="w-full bg-[#F3F3F3]  px-12 xl:px-20">
+        <section className="w-full bg-[#F3F3F3] px-6 pb-12 md:px-10 md:pb-16 xl:px-20 xl:pb-20">
             <div>
                 <div>
-                    <h1 className="main-heading">
+                    <h1 className="pb-6 pt-12 text-3xl font-semibold tracking-tighter md:pb-8 md:pt-16 md:text-6xl mdl:w-[820px] xl:pb-10 xl:pt-20">
                         See how Asana connects work across different departments
                     </h1>
                     <div>
                         {menuItems.map((item, index) => (
                             <div
                                 key={index}
-                                className={`lgs:inline-block mr-5 hidden cursor-pointer rounded-full border px-6 py-5 text-xl font-semibold text-gray-800 ${activeMenu === item ? "border-none bg-[#F7DEE3] text-[#690031]" : ""}`}
+                                className={`mr-5 hidden cursor-pointer rounded-full border px-6 py-5 text-xl font-semibold text-gray-800 lgs:inline-block ${activeMenu === item ? "border-none bg-[#F7DEE3] text-[#690031]" : ""}`}
                                 onClick={() => setActiveMenu(item)}
                             >
                                 {item}
@@ -54,7 +54,7 @@ const Features = () => {
                         ))}
 
                         <select
-                            className="lgs:hidden custom-select w-full md:w-3/4 border py-3 pr-4 ps-4"
+                            className="custom-select w-full border py-3 pr-4 ps-4 md:w-3/4 lgs:hidden"
                             name="features-dropdown"
                             value={activeMenu}
                             id="features-dropdown"

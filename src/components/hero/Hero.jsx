@@ -4,8 +4,9 @@ import Btn from "../../UI/buttons/Btn";
 
 const Hero = () => {
   return (
-    <section className="w-full p-12 xl:px-20">
-      <div className="w-full p-6 sm640:p-0">
+    <section className="w-full px-5 md:px-10 xl:px-20">
+      {/* <div className="w-full p-6 sm640:p-0"> */}
+      <div className="w-full">
         <div className="mt-28 flex flex-col items-center justify-center gap-6 text-center">
           <h1 className="max-w-[680px] px-10 text-4xl font-semibold tracking-tighter sm:p-0 md:text-7xl">
             The #1 AI work management platform
