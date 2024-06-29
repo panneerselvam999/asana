@@ -3,6 +3,7 @@ import Brand from "./components/brand/Brand";
 import Features from "./components/features/Features";
 import Hero from "./components/hero/Hero";
 import Navbar from "./components/nav/Navbar";
+import Security from "./components/security/Security";
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
       <Brand />
       <Features />
       <Goals />
+      <Security />
       <br />
       <br />
       <hr />

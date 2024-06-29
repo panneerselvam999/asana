@@ -38,7 +38,7 @@ const Goals = () => {
                     <img src="img/ai.webp" alt="" />
                 </div>
             </div>
-            <hr className="border-t border-gray-300" />
+            <hr className="my-4 border-t border-gray-300" />
         </section>
     );
 };

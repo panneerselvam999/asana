@@ -11,6 +11,10 @@
         @apply inline-block rounded-btn border border-black px-5 py-3 font-semibold duration-300 hover:bg-black hover:text-white hover:opacity-70;
     }
 
+    .red-btn {
+        @apply inline-block text-white rounded-btn border border-black px-5 py-3 font-semibold duration-300 hover:bg-red-400 hover:text-black ;
+    }
+
     .brand-style {
         @apply sml:w-fit m-5 flex w-full items-center justify-center;
     }

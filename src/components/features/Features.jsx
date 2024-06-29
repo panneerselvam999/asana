@@ -54,7 +54,7 @@ const Features = () => {
                         ))}
 
                         <select
-                            className="custom-select w-full border py-3 pr-4 ps-4 md:w-3/4 lgs:hidden"
+                            className="custom-select mb-7 w-full border py-3 pr-4 ps-4 md:w-3/4 lgs:hidden"
                             name="features-dropdown"
                             value={activeMenu}
                             id="features-dropdown"
