@@ -20,6 +20,9 @@ export default {
       borderRadius: {
         btn: "3px",
       },
+      width: {
+        'fluid': 'clamp(1rem, 2.5vw, 4rem)', // Example usage
+      },
     },
   },
   plugins: [],

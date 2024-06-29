@@ -17,7 +17,6 @@ const Security = () => {
                         compliance with the latest standards.
                     </p>
                     <div>
-                        {" "}
                         <Btn content={"Explore security"} type={"red-btn"} />
                     </div>
                 </div>
