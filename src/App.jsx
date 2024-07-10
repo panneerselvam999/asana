@@ -1,5 +1,6 @@
 import Goals from "./components/apart/Goals";
 import Brand from "./components/brand/Brand";
+import CarouselMain from "./components/carousel/CarouselMain";
 import Features from "./components/features/Features";
 import Hero from "./components/hero/Hero";
 import Integrations from "./components/integrations/Integrations";
@@ -17,6 +18,7 @@ export default function App() {
       <Goals />
       <Security />
       <Integrations />
+      <CarouselMain />
       <br />
       <br />
       <hr />

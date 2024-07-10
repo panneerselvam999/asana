@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => {
     return (
-        <section className="sticky top-0 w-full bg-white text-black drop-shadow-md xl:px-20">
+        <section className="sticky top-0 w-full bg-white text-black drop-shadow-md xl:px-20 z-30">
             <nav
                 className="mx-auto flex h-14 w-full items-center justify-between px-4 xl:px-0"
                 id="nav-bar "

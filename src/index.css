@@ -12,18 +12,19 @@
     }
 
     .red-btn {
-        @apply inline-block text-white rounded-btn border border-black px-5 py-3 font-semibold duration-300 hover:bg-red-400 hover:text-black ;
+        @apply inline-block rounded-btn border border-black px-5 py-3 font-semibold text-white duration-300 hover:bg-red-400 hover:text-black;
     }
+
     .gray-btn {
-        @apply inline-block  rounded-btn border border-black px-5 py-3 font-semibold duration-300 hover:text-white hover:bg-gray-400  ;
+        @apply inline-block rounded-btn border border-black px-5 py-3 font-semibold duration-300 hover:bg-gray-400 hover:text-white;
     }
 
     .brand-style {
-        @apply sml:w-fit m-5 flex w-full items-center justify-center;
+        @apply m-5 flex w-full items-center justify-center sml:w-fit;
     }
 
     .main-heading {
-        @apply mdl:w-[820px] pb-10 pt-20 text-3xl font-semibold tracking-tighter md:text-6xl;
+        @apply pb-10 pt-20 text-3xl font-semibold tracking-tighter md:text-6xl mdl:w-[820px];
     }
 
     .sub-heading {
@@ -56,3 +57,27 @@ body {
     background-size: 1rem;
     /* Size of the custom arrow */
 }
+
+/* slick - start */
+.slick-slide>div {
+    margin: 10px;
+}
+
+.cardMainDiv:hover .cardInnerDiv {
+    transform: translateY(-4rem);
+}
+
+.cardLinkDiv {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s linear 0.5s, opacity 0.5s linear;
+}
+
+.cardMainDiv:hover .cardLinkDiv {
+    visibility: visible;
+    opacity: 1;
+    transition-delay: 0.2s;
+}
+
+
+/* slick - end*/

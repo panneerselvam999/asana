@@ -1,0 +1,67 @@
+{
+    "cardData": [
+        {
+            "id": 1,
+            "title": "Overstock",
+            "des": "Overstock manages hundreds of partner relationships with Asana.",
+            "link": "Read case stydies",
+            "img": "img/card-overstock.webp"
+        },
+        {
+            "id": 2,
+            "title": "Hubspot",
+            "des": "Increased production of advertising campaigns for clients by 50% each month.",
+            "link": "Read case stydies",
+            "img": "img/card-hubspot.webp"
+        },
+        {
+            "id": 3,
+            "title": "Figma",
+            "des": "Figma's product team reduced meeting time by 50% with Asana.",
+            "link": "Read case stydies",
+            "img": "img/card-figma.webp"
+        },
+        {
+            "id": 4,
+            "title": "Zoom",
+            "des": "Zoom saves 133 work weeks per year with Asana.",
+            "link": "Read case stydies",
+            "img": "img/card-zoom.webp"
+        },
+        {
+            "id": 5,
+            "title": "Figma",
+            "des": "Figma's product team reduced meeting time by 50% with Asana.",
+            "link": "Read case stydies",
+            "img": "img/card-figma.webp"
+        },
+        {
+            "id": 6,
+            "title": "Zoom",
+            "des": "Zoom saves 133 work weeks per year with Asana.",
+            "link": "Read case stydies",
+            "img": "img/card-zoom.webp"
+        },
+        {
+            "id": 7,
+            "title": "Zoom",
+            "des": "Zoom saves 133 work weeks per year with Asana.",
+            "link": "Read case stydies",
+            "img": "img/card-zoom.webp"
+        },
+        {
+            "id": 8,
+            "title": "Zoom",
+            "des": "Zoom saves 133 work weeks per year with Asana.",
+            "link": "Read case stydies",
+            "img": "img/card-zoom.webp"
+        },
+        {
+            "id": 9,
+            "title": "Zoom",
+            "des": "Zoom saves 133 work weeks per year with Asana.",
+            "link": "Read case stydies",
+            "img": "img/card-zoom.webp"
+        }
+    ]
+}
