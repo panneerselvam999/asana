@@ -23,6 +23,9 @@ export default {
       width: {
         'fluid': 'clamp(1rem, 2.5vw, 4rem)', // Example usage
       },
+      flexGrow: {
+        2: '2'
+      }
     },
   },
   plugins: [],

@@ -2,6 +2,7 @@ import Goals from "./components/apart/Goals";
 import Brand from "./components/brand/Brand";
 import CarouselMain from "./components/carousel/CarouselMain";
 import Features from "./components/features/Features";
+import Firms from "./components/firms/Firms";
 import Hero from "./components/hero/Hero";
 import Integrations from "./components/integrations/Integrations";
 import Navbar from "./components/nav/Navbar";
@@ -19,6 +20,7 @@ export default function App() {
       <Security />
       <Integrations />
       <CarouselMain />
+      <Firms />
       <br />
       <br />
       <hr />
