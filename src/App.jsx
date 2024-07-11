@@ -3,6 +3,7 @@ import Brand from "./components/brand/Brand";
 import CarouselMain from "./components/carousel/CarouselMain";
 import Features from "./components/features/Features";
 import Firms from "./components/firms/Firms";
+import FooterTop from "./components/footer/FooterTop";
 import GetStarted from "./components/getStarted/GetStarted";
 import Hero from "./components/hero/Hero";
 import Integrations from "./components/integrations/Integrations";
@@ -23,6 +24,7 @@ export default function App() {
       <CarouselMain />
       <Firms />
       <GetStarted />
+      <FooterTop />
       <br />
       <br />
       <hr />
