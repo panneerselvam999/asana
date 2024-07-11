@@ -39,9 +39,9 @@ const Features = () => {
         <section className="w-full bg-[#F3F3F3] px-6 pb-12 md:px-10 md:pb-16 xl:px-20 xl:pb-20">
             <div>
                 <div>
-                    <h2 className="pb-6 pt-12 text-3xl font-semibold tracking-tighter md:pb-8 md:pt-16 md:text-6xl mdl:w-[820px] xl:pb-10 xl:pt-20">
+                    <h1 className="pb-6 pt-12 text-3xl font-semibold tracking-tighter md:pb-8 md:pt-16 md:text-6xl mdl:w-[820px] xl:pb-10 xl:pt-20">
                         See how Asana connects work across different departments
-                    </h2>
+                    </h1>
                     <div>
                         {menuItems.map((item, index) => (
                             <div
