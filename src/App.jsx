@@ -29,17 +29,7 @@ export default function App() {
       <FooterTop />
       <FooterMain />
       <FooterBottom />
-      <br />
-      <br />
-      <hr />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
+     
       {/* </div> */}
     </>
   );
